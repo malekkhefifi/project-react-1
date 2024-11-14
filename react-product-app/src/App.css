@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Applique un fond à la carte */
+.card-custom {
+  width: 18rem; /* Largeur de la carte */
+  border: 2px solid #007bff; /* Bordure bleue */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  transition: transform 0.3s ease-in-out; /* Transition pour l'animation */
+}
+
+/* Lorsque la carte est survolée, elle grossit légèrement */
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+/* Applique une bordure arrondie à l'image de la carte */
+.card-custom .card-img-top {
+  width: 100%; /* Image responsive */
+  height: 150px; /* Hauteur fixe pour l'image */
+  object-fit: cover; /* L'image sera découpée pour remplir l'espace sans déformation */
+  border-radius: 10px 10px 0 0; /* Coins arrondis pour l'image */
+}
+
+/* Applique un fond clair et des espacements à la body de la carte */
+.card-custom .card-body {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+/* Stylise le titre */
+.card-custom .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+/* Stylise le texte de la carte */
+.card-custom .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Stylise le bouton */
+.card-custom .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.card-custom .btn-primary:hover {
+  background-color: #0056b3; /* Changer la couleur au survol */
+}
+
+/* Applique un espacement général autour de l'application */
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
